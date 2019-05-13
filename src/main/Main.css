@@ -1,0 +1,21 @@
+.main-body {
+  display: grid;
+  width: 900px;
+  grid-template-areas: "photo advanced-info"
+                       "short-info advanced-info";
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 250px 1fr;
+  box-shadow: 0 0 10px 5px rgb(192, 192, 192);
+  background-color: rgb(236, 236, 236);
+}
+
+@media only screen and (max-width: 600px) {
+  .main-body {
+    grid-template-areas: "photo "
+                        "short-info"
+                        "advanced-info";
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px auto 1fr;
+  }
+}
+
