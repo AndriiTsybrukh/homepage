@@ -9,4 +9,13 @@
   background-color: rgb(236, 236, 236);
 }
 
+@media only screen and (max-width: 600px) {
+  .main-body {
+    grid-template-areas: "photo "
+                        "short-info"
+                        "advanced-info";
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px auto 1fr;
+  }
+}
 
