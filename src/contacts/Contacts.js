@@ -19,8 +19,7 @@ const Contacts = () => (
             text={props.text}
             key = {`${props.text}-${index}`}
          />
-        ))
-      }
+      ))}
     </div>
   </div>
 );
