@@ -2,7 +2,7 @@ import React from 'react';
 import './PhotoBlock.css';
 import Photo from '../../images/photo.png';
 
-const photoBlock = () => (
+const PhotoBlock = () => (
   <div className="photo-container">
     <img
       className="photo"
@@ -14,4 +14,4 @@ const photoBlock = () => (
   </div>
 );
 
-export default photoBlock;
+export default PhotoBlock;
