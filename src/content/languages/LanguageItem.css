@@ -1,0 +1,19 @@
+.language-item {
+  width: 45%;
+  background-color: #42B2C8;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 19px;
+  text-align:  center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 440px) {
+  .language-item {
+    width: 100%;
+  }
+}
