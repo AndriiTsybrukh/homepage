@@ -1,0 +1,17 @@
+.contact-string {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.contact-text {
+  color: rgb(235, 235, 235);
+  margin: 5px;
+}
+
+.contact-icon {
+  color: #42B2C8;
+  width: 25px;
+  height: 25px;
+}

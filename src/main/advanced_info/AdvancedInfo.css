@@ -1,0 +1,4 @@
+.advanced-info-container {
+  grid-area: advanced-info;
+  margin: 0 10px;
+}

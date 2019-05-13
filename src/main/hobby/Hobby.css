@@ -1,0 +1,30 @@
+.hobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+}
+
+.border {
+  border: 2px solid;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hobby-icon {
+  color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.hobby-text {
+  color: white;
+}

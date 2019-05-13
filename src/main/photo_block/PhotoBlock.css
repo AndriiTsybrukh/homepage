@@ -1,0 +1,24 @@
+.photo-container {
+  grid-area: photo;
+  background-color: #111216;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #fff;
+  margin: 3px;
+}
+
+.position {
+  color: rgb(184, 184, 184);
+  margin: 3px;
+}
