@@ -3,7 +3,6 @@ import './Timeline.css';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const timelineData = [
-  {date: "11.05.2019", title: "The first try to become a student of Binary Academy", subtitle: "I hope that I can)"},
   {date: "15.08.2017", title: "Liberty English School", subtitle: "Upgrading skill of my English"},
   {date: "01.09.2016", title: "End college and became a student of the Lviv Polytechnic", subtitle: "First diploma!"},
   {date: "08.06.2015", title: "First work with Unreal Engine 4"},

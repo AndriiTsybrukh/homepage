@@ -3,10 +3,10 @@ import './SkillsContainer.css';
 import ProgressBar from './progress_bar/ProgressBar';
 
 const progressBars = [
-  {name: "CSS/HTML", percent: "74%"},
-  {name: "JS", percent: "69%"},
-  {name: "React", percent: "65%"},
-  {name: "UE4 Blueprints", percent: "93%"},
+  {name: "CSS/HTML", percent: "70%"},
+  {name: "JS", percent: "59%"},
+  {name: "React", percent: "66%"},
+  {name: "UE4 Blueprints", percent: "87%"},
 ]
 
 const skillsContainer = () => (

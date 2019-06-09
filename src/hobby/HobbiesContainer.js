@@ -5,7 +5,7 @@ import HobbyElement from './Hobby';
 const hobbiesList = [
   {icon: "fas fa-plane-departure", name: "Travel"},
   {icon: "fas fa-guitar fa-lg", name: "Guitar"},
-  {icon: "fas fa-futbol fa-lg", name: "Football"},
+  {icon: "fas fa-fist-raised fa-lg", name: "MMA"},
 ]
 
 
