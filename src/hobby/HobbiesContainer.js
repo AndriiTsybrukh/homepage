@@ -13,7 +13,7 @@ const Hobby = () => (
   <div className="hobby-box">
     <h3>Hobby</h3>
     <div className="hobby-container">
-      {hobbiesList.map(({icon, name}, index) => (
+      {hobbiesList.map(({ icon, name }, index) => (
           <HobbyElement
             icon={icon}
             name={name}
