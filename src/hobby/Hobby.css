@@ -19,10 +19,12 @@
 }
 
 .hobby-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   width: 25px;
   height: 25px;
-  text-align: center;
 }
 
 .hobby-text {
