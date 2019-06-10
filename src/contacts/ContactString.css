@@ -11,6 +11,8 @@
 }
 
 .contact-icon {
+  display: flex;
+  align-items: center;
   color: #42B2C8;
   width: 25px;
   height: 25px;
