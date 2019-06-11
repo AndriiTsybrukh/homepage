@@ -2,7 +2,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
 
+.contact-string a {
+  text-decoration: none;
+}
+
+.contact-string a:hover .contact-text {
+  opacity: 0.8;
 }
 
 .contact-text {
@@ -11,6 +18,8 @@
 }
 
 .contact-icon {
+  display: flex;
+  align-items: center;
   color: #42B2C8;
   width: 25px;
   height: 25px;

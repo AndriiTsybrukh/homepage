@@ -5,3 +5,13 @@
 .timeline h4 {
   font-weight: 400;
 }
+
+.timeline .title {
+  right: -3px;
+}
+
+@media screen and (max-width: 425px) {
+  .timeline .title {
+    right: -0px;
+  }
+}
